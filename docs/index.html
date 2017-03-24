@@ -75,7 +75,7 @@ $.noConflict();
 $(document).ready(function () {
   $(".chosen-select-genre").chosen({width: "95%"}); 
   $(".chosen-select-year").chosen({width: "95%"});
-  d3.csv("data/rad.csv", function(error, data) {
+  d3.csv("data/radial.csv", function(error, data) {
     if (error) throw error;
     originalData = data;
     drawRadial(data);
