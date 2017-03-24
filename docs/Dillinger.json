@@ -1,0 +1,417 @@
+{
+  "uri": "http://dbpedia.org/resource/Daz_Dillinger",
+  "id": "http://dbpedia.org/resource/Daz_Dillinger",
+  "label": [
+    "Daz Dillinger"
+  ],
+  "altlabel": [],
+  "narrower": [
+    ""
+  ],
+  "broader": [
+    ""
+  ],
+  "sameas": [
+    "http://tr.dbpedia.org/resource/Daz_Dillinger",
+    "http://www.wikidata.org/entity/Q551154",
+    "http://fr.dbpedia.org/resource/Daz_Dillinger",
+    "http://ko.dbpedia.org/resource/대즈_딜린저",
+    "http://hr.dbpedia.org/resource/Daz_Dillinger",
+    "http://wikidata.dbpedia.org/resource/Q551154",
+    "http://de.dbpedia.org/resource/Daz_Dillinger",
+    "http://it.dbpedia.org/resource/Daz_Dillinger",
+    "http://fi.dbpedia.org/resource/Daz_Dillinger",
+    "http://sv.dbpedia.org/resource/Daz_Dillinger",
+    "http://rdf.freebase.com/ns/m.03f3040",
+    "http://es.dbpedia.org/resource/Daz_Dillinger",
+    "http://pl.dbpedia.org/resource/Daz_Dillinger",
+    "http://pt.dbpedia.org/resource/Daz_Dillinger",
+    "http://nl.dbpedia.org/resource/Daz_Dillinger",
+    "http://he.dbpedia.org/resource/דאז_דילינגר"
+  ],
+  "predicates": {
+    "http://dbpedia.org/property/label": [
+      "http://dbpedia.org/resource/D.P.G._Recordz",
+      "http://dbpedia.org/resource/Death_Row_Records",
+      "http://dbpedia.org/resource/Koch_Entertainment",
+      "http://dbpedia.org/resource/EMI",
+      "http://dbpedia.org/resource/Virgin_Records",
+      "http://dbpedia.org/resource/Doggystyle_Records",
+      "http://dbpedia.org/resource/Gangsta_Advisory_Records",
+      "http://dbpedia.org/resource/So_So_Def_Recordings"
+    ],
+    "abstract": [
+      "Delmar Drew Arnaud (born May 25, 1973), better known by his stage name Daz Dillinger (formerly Dat Nigga Daz), is an American hip hop recording artist and record producer from Long Beach, California. Dillinger is best known for his membership in the duo Tha Dogg Pound, alongside Kurupt, as well as his work with Death Row Records."
+    ],
+    "birthName": [
+      "Delmar Drew Arnaud"
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      "http://en.wikipedia.org/wiki/Daz_Dillinger?oldid=706841857"
+    ],
+    "http://dbpedia.org/property/genre": [
+      "http://dbpedia.org/resource/G-funk",
+      "http://dbpedia.org/resource/Hip_hop_music",
+      "http://dbpedia.org/resource/Gangsta_rap"
+    ],
+    "http://dbpedia.org/ontology/associatedMusicalArtist": [
+      "http://dbpedia.org/resource/Lil'_½_Dead",
+      "http://dbpedia.org/resource/Tha_Dogg_Pound",
+      "http://dbpedia.org/resource/The_Lady_of_Rage",
+      "http://dbpedia.org/resource/Dr._Dre",
+      "http://dbpedia.org/resource/Young_Buck",
+      "http://dbpedia.org/resource/Nate_Dogg",
+      "http://dbpedia.org/resource/Z-Ro",
+      "http://dbpedia.org/resource/Outlawz",
+      "http://dbpedia.org/resource/Snoop_Dogg",
+      "http://dbpedia.org/resource/Kurupt",
+      "http://dbpedia.org/resource/Tupac_Shakur",
+      "http://dbpedia.org/resource/WC_(rapper)",
+      "http://dbpedia.org/resource/RBX",
+      "http://dbpedia.org/resource/Soopafly"
+    ],
+    "http://dbpedia.org/property/instrument": [
+      "http://dbpedia.org/resource/Drum_kit",
+      "http://dbpedia.org/resource/Drum_machine",
+      "http://dbpedia.org/resource/Keyboard_instrument",
+      "http://dbpedia.org/resource/Sampler_(musical_instrument)"
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      "http://dazmusic.com/",
+      "http://www.dazdillinger.net",
+      "http://www.dubcnn.com/interviews/daz07/"
+    ],
+    "http://dbpedia.org/ontology/associatedBand": [
+      "http://dbpedia.org/resource/Lil'_½_Dead",
+      "http://dbpedia.org/resource/Tha_Dogg_Pound",
+      "http://dbpedia.org/resource/The_Lady_of_Rage",
+      "http://dbpedia.org/resource/Dr._Dre",
+      "http://dbpedia.org/resource/Young_Buck",
+      "http://dbpedia.org/resource/Nate_Dogg",
+      "http://dbpedia.org/resource/Z-Ro",
+      "http://dbpedia.org/resource/Outlawz",
+      "http://dbpedia.org/resource/Snoop_Dogg",
+      "http://dbpedia.org/resource/Kurupt",
+      "http://dbpedia.org/resource/Tupac_Shakur",
+      "http://dbpedia.org/resource/WC_(rapper)",
+      "http://dbpedia.org/resource/RBX",
+      "http://dbpedia.org/resource/Soopafly"
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      "http://dbpedia.org/ontology/List",
+      "http://dbpedia.org/dbtax/Artist",
+      "http://xmlns.com/foaf/0.1/Person",
+      "http://dbpedia.org/dbtax/Genre",
+      "http://dbpedia.org/dbtax/List",
+      "http://dbpedia.org/ontology/Artist",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/ontology/Producer",
+      "http://dbpedia.org/ontology/MusicalArtist",
+      "http://dbpedia.org/dbtax/Member",
+      "http://dbpedia.org/dbtax/Producer",
+      "http://schema.org/Person",
+      "http://dbpedia.org/dbtax/Organization",
+      "http://www.wikidata.org/entity/Q483501",
+      "http://dbpedia.org/ontology/Agent",
+      "http://dbpedia.org/ontology/Organization",
+      "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+      "http://dbpedia.org/ontology/Person",
+      "http://www.wikidata.org/entity/Q5",
+      "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+      "http://www.wikidata.org/entity/Q215627",
+      "http://schema.org/MusicGroup",
+      "http://dbpedia.org/ontology/Genre"
+    ],
+    "http://dbpedia.org/ontology/activeYearsStartYear": [
+      "1992"
+    ],
+    "http://dbpedia.org/ontology/birthDate": [
+      "1973-05-25"
+    ],
+    "http://dbpedia.org/property/birthDate": [
+      "1973-05-25"
+    ],
+    "http://dbpedia.org/property/yearsActive": [
+      "1992"
+    ],
+    "http://dbpedia.org/property/origin": [
+      "Long Beach, California, U.S."
+    ],
+    "http://purl.org/dc/terms/subject": [
+      "http://dbpedia.org/resource/Category:So_So_Def_Recordings_artists",
+      "http://dbpedia.org/resource/Category:Death_Row_Records_artists",
+      "http://dbpedia.org/resource/Category:Gangsta_rappers",
+      "http://dbpedia.org/resource/Category:Priority_Records_artists",
+      "http://dbpedia.org/resource/Category:Rappers_from_Los_Angeles,_California",
+      "http://dbpedia.org/resource/Category:G-funk",
+      "http://dbpedia.org/resource/Category:West_Coast_hip_hop_musicians",
+      "http://dbpedia.org/resource/Category:Musicians_from_Long_Beach,_California",
+      "http://dbpedia.org/resource/Category:Living_people",
+      "http://dbpedia.org/resource/Category:American_hip_hop_record_producers",
+      "http://dbpedia.org/resource/Category:Virgin_Records_artists",
+      "http://dbpedia.org/resource/Category:1973_births",
+      "http://dbpedia.org/resource/Category:African-American_male_rappers",
+      "http://dbpedia.org/resource/Category:G-funk_artists",
+      "http://dbpedia.org/resource/Category:African-American_record_producers",
+      "http://dbpedia.org/resource/Category:Empire_Distribution_artists",
+      "http://dbpedia.org/resource/Category:Crips",
+      "http://dbpedia.org/resource/Category:E1_Music_artists"
+    ],
+    "http://dbpedia.org/property/wikiPageUsesTemplate": [
+      "http://dbpedia.org/resource/Template:Authority_control",
+      "http://dbpedia.org/resource/Template:Main",
+      "http://dbpedia.org/resource/Template:Infobox_musical_artist",
+      "http://dbpedia.org/resource/Template:Tha_Dogg_Pound",
+      "http://dbpedia.org/resource/Template:Official_website",
+      "http://dbpedia.org/resource/Template:IMDb_name",
+      "http://dbpedia.org/resource/Template:MTV_artist",
+      "http://dbpedia.org/resource/Template:URL",
+      "http://dbpedia.org/resource/Template:Daz_Dillinger",
+      "http://dbpedia.org/resource/Template:Reflist",
+      "http://dbpedia.org/resource/Template:Birth_date_and_age"
+    ],
+    "http://dbpedia.org/ontology/recordLabel": [
+      "http://dbpedia.org/resource/D.P.G._Recordz",
+      "http://dbpedia.org/resource/Death_Row_Records",
+      "http://dbpedia.org/resource/Koch_Entertainment",
+      "http://dbpedia.org/resource/EMI",
+      "http://dbpedia.org/resource/Virgin_Records",
+      "http://dbpedia.org/resource/Doggystyle_Records",
+      "http://dbpedia.org/resource/Gangsta_Advisory_Records",
+      "http://dbpedia.org/resource/So_So_Def_Recordings"
+    ],
+    "http://dbpedia.org/ontology/genre": [
+      "http://dbpedia.org/resource/G-funk",
+      "http://dbpedia.org/resource/Hip_hop_music",
+      "http://dbpedia.org/resource/Gangsta_rap"
+    ],
+    "http://dbpedia.org/property/occupation": [
+      "http://dbpedia.org/resource/Rapping",
+      "http://dbpedia.org/resource/Record_producer"
+    ],
+    "http://dbpedia.org/property/background": [
+      "solo_singer"
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      "http://dbpedia.org/resource/Artist"
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      "303492"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      "Delmar Drew Arnaud (born May 25, 1973), better known by his stage name Daz Dillinger (formerly Dat Nigga Daz), is an American hip hop recording artist and record producer from Long Beach, California. Dillinger is best known for his membership in the duo Tha Dogg Pound, alongside Kurupt, as well as his work with Death Row Records."
+    ],
+    "http://dbpedia.org/ontology/instrument": [
+      "http://dbpedia.org/resource/Drum_kit",
+      "http://dbpedia.org/resource/Drum_machine",
+      "http://dbpedia.org/resource/Keyboard_instrument",
+      "http://dbpedia.org/resource/Sampler_(musical_instrument)"
+    ],
+    "http://dbpedia.org/ontology/wikiPageLength": [
+      "14027"
+    ],
+    "http://dbpedia.org/ontology/wikiPageWikiLinkText": [
+      "Arnaud, D.",
+      "D. Arnaud",
+      "Dat Nigga Daz",
+      "Daz Dillinger ",
+      "Delmar \"Daz Dillinger\" Arnaud",
+      "Delmar Arnaud",
+      "Daz",
+      "Delmar Arnaud, Sr.",
+      "Daz Dillinger",
+      "Daz Dilly",
+      "Delmar Drew Arnaud"
+    ],
+    "http://dbpedia.org/property/name": [
+      "Daz Dillinger"
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      "Daz Dillinger"
+    ],
+    "http://dbpedia.org/ontology/wikiPageOutDegree": [
+      "135"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      "Daz Dillinger"
+    ],
+    "http://dbpedia.org/property/associatedActs": [
+      "http://dbpedia.org/resource/Lil'_½_Dead",
+      "http://dbpedia.org/resource/Tha_Dogg_Pound",
+      "http://dbpedia.org/resource/The_Lady_of_Rage",
+      "http://dbpedia.org/resource/Dr._Dre",
+      "http://dbpedia.org/resource/Young_Buck",
+      "http://dbpedia.org/resource/Nate_Dogg",
+      "http://dbpedia.org/resource/Z-Ro",
+      "http://dbpedia.org/resource/Outlawz",
+      "http://dbpedia.org/resource/Snoop_Dogg",
+      "http://dbpedia.org/resource/Kurupt",
+      "http://dbpedia.org/resource/Tupac_Shakur",
+      "http://dbpedia.org/resource/WC_(rapper)",
+      "http://dbpedia.org/resource/RBX",
+      "http://dbpedia.org/resource/Soopafly"
+    ],
+    "http://dbpedia.org/property/alias": [
+      "Dat Nigga Daz, Diggity Daz, Daz Dilly, Dilly Tha Dogg"
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      "706841857"
+    ],
+    "http://xmlns.com/foaf/0.1/givenName": [
+      "Delmar Drew Arnaud"
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      "http://tr.dbpedia.org/resource/Daz_Dillinger",
+      "http://www.wikidata.org/entity/Q551154",
+      "http://fr.dbpedia.org/resource/Daz_Dillinger",
+      "http://ko.dbpedia.org/resource/대즈_딜린저",
+      "http://hr.dbpedia.org/resource/Daz_Dillinger",
+      "http://wikidata.dbpedia.org/resource/Q551154",
+      "http://de.dbpedia.org/resource/Daz_Dillinger",
+      "http://it.dbpedia.org/resource/Daz_Dillinger",
+      "http://fi.dbpedia.org/resource/Daz_Dillinger",
+      "http://sv.dbpedia.org/resource/Daz_Dillinger",
+      "http://rdf.freebase.com/ns/m.03f3040",
+      "http://es.dbpedia.org/resource/Daz_Dillinger",
+      "http://pl.dbpedia.org/resource/Daz_Dillinger",
+      "http://pt.dbpedia.org/resource/Daz_Dillinger",
+      "http://nl.dbpedia.org/resource/Daz_Dillinger",
+      "http://he.dbpedia.org/resource/דאז_דילינגר"
+    ],
+    "http://dbpedia.org/ontology/alias": [
+      "Dat Nigga Daz, Diggity Daz, Daz Dilly, Dilly Tha Dogg"
+    ],
+    "http://dbpedia.org/ontology/background": [
+      "solo_singer"
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      "http://dazmusic.com/",
+      "http://www.dazdillinger.net"
+    ],
+    "http://dbpedia.org/ontology/occupation": [
+      "http://dbpedia.org/resource/Rapping",
+      "http://dbpedia.org/resource/Record_producer"
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      "http://en.wikipedia.org/wiki/Daz_Dillinger"
+    ],
+    "http://dbpedia.org/ontology/hometown": [
+      "http://dbpedia.org/resource/Long_Beach,_California"
+    ],
+    "http://dbpedia.org/ontology/wikiPageWikiLink": [
+      "http://dbpedia.org/resource/Bad_Azz_(rapper)",
+      "http://dbpedia.org/resource/Tha_Dogg_Pound",
+      "http://dbpedia.org/resource/The_Lady_of_Rage",
+      "http://dbpedia.org/resource/D.A.Z.",
+      "http://dbpedia.org/resource/Aftermath_Entertainment",
+      "http://dbpedia.org/resource/G-funk",
+      "http://dbpedia.org/resource/Bad_Boy_Records",
+      "http://dbpedia.org/resource/Dr._Dre",
+      "http://dbpedia.org/resource/Rapping",
+      "http://dbpedia.org/resource/Dresta",
+      "http://dbpedia.org/resource/Grammy_Award_for_Best_Rap_Performance_by_a_Duo_or_Group",
+      "http://dbpedia.org/resource/D.P.G._Recordz",
+      "http://dbpedia.org/resource/Hip_hop_music",
+      "http://dbpedia.org/resource/Ruthless_Records",
+      "http://dbpedia.org/resource/Pete_Rock",
+      "http://dbpedia.org/resource/Nate_Dogg",
+      "http://dbpedia.org/resource/The_Notorious_B.I.G.",
+      "http://dbpedia.org/resource/Mobb_Deep",
+      "http://dbpedia.org/resource/Sean_Combs",
+      "http://dbpedia.org/resource/Jermaine_Dupri",
+      "http://dbpedia.org/resource/EMI",
+      "http://dbpedia.org/resource/Stage_name",
+      "http://dbpedia.org/resource/Keyboard_instrument",
+      "http://dbpedia.org/resource/Doggystyle",
+      "http://dbpedia.org/resource/Kurupt",
+      "http://dbpedia.org/resource/Long_Beach,_California",
+      "http://dbpedia.org/resource/R.A.W._(album)",
+      "http://dbpedia.org/resource/N.W.A",
+      "http://dbpedia.org/resource/Record_producer",
+      "http://dbpedia.org/resource/Capone-N-Noreaga",
+      "http://dbpedia.org/resource/Category:So_So_Def_Recordings_artists",
+      "http://dbpedia.org/resource/Lil'_½_Dead",
+      "http://dbpedia.org/resource/Category:Empire_Distribution_artists",
+      "http://dbpedia.org/resource/Necessary_Roughness_(album)",
+      "http://dbpedia.org/resource/Southwest_(album)",
+      "http://dbpedia.org/resource/Category:Death_Row_Records_artists",
+      "http://dbpedia.org/resource/So_So_Gangsta",
+      "http://dbpedia.org/resource/Tha_Dogg_Pound_Gangsta_LP",
+      "http://dbpedia.org/resource/Gridlock'd",
+      "http://dbpedia.org/resource/Matter_of_Dayz",
+      "http://dbpedia.org/resource/L.A.,_L.A.",
+      "http://dbpedia.org/resource/Dogg_Food",
+      "http://dbpedia.org/resource/East_Coast–West_Coast_hip_hop_rivalry",
+      "http://dbpedia.org/resource/Game_for_Sale",
+      "http://dbpedia.org/resource/Category:Gangsta_rappers",
+      "http://dbpedia.org/resource/Gangsta_Crunk",
+      "http://dbpedia.org/resource/Dogg_Chit",
+      "http://dbpedia.org/resource/Retaliation,_Revenge_and_Get_Back",
+      "http://dbpedia.org/resource/WC_(rapper)",
+      "http://dbpedia.org/resource/To_Live_and_Die_in_CA",
+      "http://dbpedia.org/resource/Who_Ride_wit_Us:_Tha_Compalation,_Vol._1",
+      "http://dbpedia.org/resource/Drum_kit",
+      "http://dbpedia.org/resource/I_Got_Love_in_These_Streetz",
+      "http://dbpedia.org/resource/RBX",
+      "http://dbpedia.org/resource/Category:Priority_Records_artists",
+      "http://dbpedia.org/resource/Category:Rappers_from_Los_Angeles,_California",
+      "http://dbpedia.org/resource/Witit_Witit",
+      "http://dbpedia.org/resource/Soopafly",
+      "http://dbpedia.org/resource/Young_Buck",
+      "http://dbpedia.org/resource/Category:G-funk",
+      "http://dbpedia.org/resource/Category:Crips",
+      "http://dbpedia.org/resource/Public_Enemiez",
+      "http://dbpedia.org/resource/Who_Ride_wit_Us:_Tha_Compalation,_Vol._3",
+      "http://dbpedia.org/resource/Category:West_Coast_hip_hop_musicians",
+      "http://dbpedia.org/resource/Category:E1_Music_artists",
+      "http://dbpedia.org/resource/New_York,_New_York_(Tha_Dogg_Pound_song)",
+      "http://dbpedia.org/resource/B-Legit",
+      "http://dbpedia.org/resource/Suge_Knight",
+      "http://dbpedia.org/resource/JT_the_Bigga_Figga",
+      "http://dbpedia.org/resource/Makaveli_&_Dillinger_Don't_Go_2_Sleep",
+      "http://dbpedia.org/resource/Death_Row_Records",
+      "http://dbpedia.org/resource/Long_Beach_2_Fillmoe",
+      "http://dbpedia.org/resource/Koch_Entertainment",
+      "http://dbpedia.org/resource/Eazy-E",
+      "http://dbpedia.org/resource/100_Wayz",
+      "http://dbpedia.org/resource/Category:Musicians_from_Long_Beach,_California",
+      "http://dbpedia.org/resource/Category:Living_people",
+      "http://dbpedia.org/resource/Bone_Thugs-n-Harmony",
+      "http://dbpedia.org/resource/Get_That_Paper_(Daz_Dillinger_&_Fratthouse_album)",
+      "http://dbpedia.org/resource/DPGC:_U_Know_What_I'm_Throwin'_Up",
+      "http://dbpedia.org/resource/Only_on_the_Left_Side",
+      "http://dbpedia.org/resource/Tha_Doggfather",
+      "http://dbpedia.org/resource/Z-Ro",
+      "http://dbpedia.org/resource/All_Eyez_on_Me",
+      "http://dbpedia.org/resource/What_Would_You_Do%3F_(Tha_Dogg_Pound_song)",
+      "http://dbpedia.org/resource/Category:American_hip_hop_record_producers",
+      "http://dbpedia.org/resource/West_Coast_Gangsta_Shit",
+      "http://dbpedia.org/resource/Gangsta_Party_(album)",
+      "http://dbpedia.org/resource/Cali_Iz_Active",
+      "http://dbpedia.org/resource/B.G._Knocc_Out",
+      "http://dbpedia.org/resource/Outlawz",
+      "http://dbpedia.org/resource/Drum_machine",
+      "http://dbpedia.org/resource/Who_Ride_wit_Us:_Tha_Compalation,_Vol._2",
+      "http://dbpedia.org/resource/Snoop_Dogg",
+      "http://dbpedia.org/resource/Virgin_Records",
+      "http://dbpedia.org/resource/Gangsta_rap",
+      "http://dbpedia.org/resource/Weed_Money",
+      "http://dbpedia.org/resource/Doggystyle_Records",
+      "http://dbpedia.org/resource/Category:Virgin_Records_artists",
+      "http://dbpedia.org/resource/Cuzznz",
+      "http://dbpedia.org/resource/Category:1973_births",
+      "http://dbpedia.org/resource/Tragedy_Khadafi",
+      "http://dbpedia.org/resource/Gangsta_Advisory_Records",
+      "http://dbpedia.org/resource/That_Was_Then,_This_Is_Now_(Tha_Dogg_Pound_album)",
+      "http://dbpedia.org/resource/Tupac_Shakur",
+      "http://dbpedia.org/resource/Sampler_(musical_instrument)",
+      "http://dbpedia.org/resource/Category:African-American_male_rappers",
+      "http://dbpedia.org/resource/This_Is_the_Life_I_Lead",
+      "http://dbpedia.org/resource/So_So_Def_Recordings",
+      "http://dbpedia.org/resource/Dillinger_&_Young_Gotti",
+      "http://dbpedia.org/resource/The_Chronic",
+      "http://dbpedia.org/resource/Category:G-funk_artists",
+      "http://dbpedia.org/resource/Category:African-American_record_producers"
+    ]
+  }
+}
