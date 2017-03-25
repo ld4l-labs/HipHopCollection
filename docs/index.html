@@ -66,6 +66,12 @@
 
 
 <script>
+
+var dbpediaMap = new Object();
+dbpediaMap["Dillinger"] = "Daz+Dillinger";
+
+
+
 var recordData,
     currentData, 
     originalData,
@@ -244,16 +250,19 @@ function drawRadial(data) {
           currentNodeInfo = ((d.id).split("."))[2];
           
           var arr = ((d.id).split(".")); 
-          if(sortByArtist[arr[2]].artist[0] === "Dillinger"){
+          console.log(sortByArtist[arr[2]].artist[0]);
+          //if(sortByArtist[arr[2]].artist[0] === "Dillinger"){
+          if(dbpediaMap[sortByArtist[arr[2]].artist[0]]){ 
+            
+            console.log(dbpediaMap[sortByArtist[arr[2]].artist[0]]);
 
-            getJSON('http://elr37-dev.library.cornell.edu/qa/show/linked_data/dbpedia/Daz+Dillinger').then(function(data) {
-                console.log('Your Json result is:  ' + data.result); //you can comment this, i used it to 
-
-
+            getJSON('http://elr37-dev.library.cornell.edu/qa/show/linked_data/dbpedia/'+dbpediaMap[sortByArtist[arr[2]].artist[0]]).then(function(data) {
+                console.log('Your Json result is:  ' + data.result);
                 }, function(status) { //error detection....
-                alert('Something went wrong.');
-            });
+                    alert('Something went wrong.');
+                });
 
+        
 
             $.getJSON("Dillinger.json").done(function(data){
               //console.log(data);
