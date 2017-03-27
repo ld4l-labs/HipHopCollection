@@ -258,14 +258,7 @@ function drawRadial(data) {
             getJSON('https://elr37-dev.library.cornell.edu/qa/show/linked_data/dbpedia/'+dbpediaMap[sortByArtist[arr[2]].artist[0]]).then(function(data) {
                 console.log('Your Json result is:  ' + data);
                 console.log('Your Json result is:  ' + data.uri);
-                }, function(status) { //error detection....
-                    alert('Something went wrong.');
-                });
-
-        
-
-            $.getJSON("Dillinger.json").done(function(data){
-              //console.log(data);
+                
               var str = "";
               if(data.uri && data.label){
                 str += "<a href='"+data.uri+"' target='_blank'>"+data.label[0]+"</a><br><br>";
@@ -292,12 +285,48 @@ function drawRadial(data) {
               $(".selected").append("<div class='selected-text'>"+ printData(d) + "<br><br>" +
                 str + "</div>");
 
+
+
+                }, function(status) { //error detection....
+                    alert('Something went wrong.');
+                });
+
+        
+
+            // $.getJSON("Dillinger.json").done(function(data){
+            //   //console.log(data);
+            //   var str = "";
+            //   if(data.uri && data.label){
+            //     str += "<a href='"+data.uri+"' target='_blank'>"+data.label[0]+"</a><br><br>";
+            //   }
+            //   if(data["predicates"]["http://dbpedia.org/ontology/birthDate"]){
+            //     str += "<p> Birthdate: "+data["predicates"]["http://dbpedia.org/ontology/birthDate"][0]+"</p><br><br>";
+            //   }
+            //   if(data.predicates.abstract){
+            //     str += "<p>"+data.predicates.abstract+"</p><br>";
+            //   }
+            //   if(data["predicates"]["http://dbpedia.org/ontology/associatedMusicalArtist"]){
+
+            //     var list = "<strong>Associate Musical Artists</strong><br><ul>";
+            //     var obj = data["predicates"]["http://dbpedia.org/ontology/associatedMusicalArtist"];
+            //     for(i=0; i<obj.length; i++){
+            //       var s = "<li><a href='"+obj[i]+"' target='_blank'>"+
+            //         obj[i].substring(obj[i].lastIndexOf("/")+1)+"</a></li>";
+            //         list += s;
+            //     }
+            //     list += "</ul>";
+            //     str += list;
+            //   }
+
+            //   $(".selected").append("<div class='selected-text'>"+ printData(d) + "<br><br>" +
+            //     str + "</div>");
+
                 // $(".selected").append("<div class='selected-text'>"+ printData(d) + "<br><br>" +
                 //   "<a href='"+data.uri+"' target='_blank'>"+data.label[0]+"</a><br><br>"+
                 //   "<p> Birthdate: "+data["predicates"]["http://dbpedia.org/ontology/birthDate"][0]+"</p>"+
                 //   "<p>"+data.predicates.abstract+"</p><br><br>"+
                 //   "</div>");    
-           });
+           // });
 
           }else{
                $(".selected").append("<div class='selected-text'>"+ printData(d) +
