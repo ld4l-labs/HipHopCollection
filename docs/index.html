@@ -121,7 +121,6 @@ var getJSON = function(url) {
     var xhr = new XMLHttpRequest();
     xhr.open('get', url, true);
     xhr.responseType = 'json';
-    xhr.withCredentials = true;
     xhr.onload = function() {
       var status = xhr.status;
       if (status == 200) {
