@@ -69,6 +69,7 @@
 
 var dbpediaMap = new Object();
 dbpediaMap["Dillinger"] = "Daz+Dillinger";
+dbpediaMap["Jimi Hendrix"] = "Jimi+Hendrix";
 
 
 
@@ -253,7 +254,7 @@ function drawRadial(data) {
           //if(sortByArtist[arr[2]].artist[0] === "Dillinger"){
           if(dbpediaMap[sortByArtist[arr[2]].artist[0]]){ 
             
-            console.log(dbpediaMap[sortByArtist[arr[2]].artist[0]]);
+            console.log(sortByArtist[arr[2]].artist[0]);
 
             getJSON('https://elr37-dev.library.cornell.edu/qa/show/linked_data/dbpedia/'+dbpediaMap[sortByArtist[arr[2]].artist[0]]).then(function(data) {
                 console.log('Your Json result is:  ' + data);
