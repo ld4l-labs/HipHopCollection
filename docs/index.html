@@ -256,7 +256,7 @@ function drawRadial(data) {
             console.log(dbpediaMap[sortByArtist[arr[2]].artist[0]]);
 
             getJSON('https://elr37-dev.library.cornell.edu/qa/show/linked_data/dbpedia/'+dbpediaMap[sortByArtist[arr[2]].artist[0]]).then(function(data) {
-                console.log('Your Json result is:  ' + data.result);
+                console.log('Your Json result is:  ' + data);
                 }, function(status) { //error detection....
                     alert('Something went wrong.');
                 });
