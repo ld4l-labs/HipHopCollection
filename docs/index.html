@@ -266,8 +266,8 @@ function drawRadial(data) {
               if(data["predicates"]["http://dbpedia.org/ontology/birthDate"]){
                 str += "<p> Birthdate: "+data["predicates"]["http://dbpedia.org/ontology/birthDate"][0]+"</p><br><br>";
               }
-              if(data.predicates.abstract){
-                str += "<p>"+data.predicates.abstract+"</p><br>";
+              if(data["predicates"]["http://www.w3.org/2000/01/rdf-schema#comment"]){
+                str += "<p>"+data["predicates"]["http://www.w3.org/2000/01/rdf-schema#comment"]+"</p><br>";
               }
               if(data["predicates"]["http://dbpedia.org/ontology/associatedMusicalArtist"]){
 
